@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>field set</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <!-- the fieldset tag is used to ground related elements in a form and drawsa box around them-->
+        <legend>personal information:</legend>
+        <label>Full Name</label>
+        <!--placeholder attribute can be used to provide extra information about entry to be made-->
+        <input type="text" id="fname" placeholder="Enter Name" /><br /><br />
+        <label>Email:</label>
+        <input type="email" id="email" /><br /><br />
+        <label>Gender:</label><br />
+        <input type="radio" id="female" name="gender" value="female" />Female<br />
+        <input type="radio" id="male" name="gender" value="male" />Male<br /><br />
+        <label>Birthday</label>
+        <input type="date" id="birthday" name="birthday" /><br /><br />
+      </fieldset>
+    </form>
+  </body>
+</html>
